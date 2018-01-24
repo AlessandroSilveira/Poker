@@ -76,5 +76,7 @@ namespace Poker.Domain.Core.Deck
             foreach (var c in _cartas)
                 Console.WriteLine(c);
         }
+
+	    
     }
 }

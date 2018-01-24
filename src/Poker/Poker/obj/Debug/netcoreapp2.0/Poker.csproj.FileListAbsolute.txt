@@ -15,3 +15,20 @@ C:\Users\alesi\source\repos\Poker\src\Poker\Poker\obj\Debug\netcoreapp2.0\Poker.
 C:\Users\alesi\source\repos\Poker\src\Poker\Poker\obj\Debug\netcoreapp2.0\Poker.AssemblyInfo.cs
 C:\Users\alesi\source\repos\Poker\src\Poker\Poker\obj\Debug\netcoreapp2.0\Poker.dll
 C:\Users\alesi\source\repos\Poker\src\Poker\Poker\obj\Debug\netcoreapp2.0\Poker.pdb
+C:\Users\Alessandro Silveira\Source\Repos\Poker\src\Poker\Poker\bin\Debug\netcoreapp2.0\Poker.deps.json
+C:\Users\Alessandro Silveira\Source\Repos\Poker\src\Poker\Poker\bin\Debug\netcoreapp2.0\Poker.runtimeconfig.json
+C:\Users\Alessandro Silveira\Source\Repos\Poker\src\Poker\Poker\bin\Debug\netcoreapp2.0\Poker.runtimeconfig.dev.json
+C:\Users\Alessandro Silveira\Source\Repos\Poker\src\Poker\Poker\bin\Debug\netcoreapp2.0\Poker.dll
+C:\Users\Alessandro Silveira\Source\Repos\Poker\src\Poker\Poker\bin\Debug\netcoreapp2.0\Poker.pdb
+C:\Users\Alessandro Silveira\Source\Repos\Poker\src\Poker\Poker\bin\Debug\netcoreapp2.0\Poker.Application.dll
+C:\Users\Alessandro Silveira\Source\Repos\Poker\src\Poker\Poker\bin\Debug\netcoreapp2.0\Poker.Domain.Core.dll
+C:\Users\Alessandro Silveira\Source\Repos\Poker\src\Poker\Poker\bin\Debug\netcoreapp2.0\Poker.Domain.dll
+C:\Users\Alessandro Silveira\Source\Repos\Poker\src\Poker\Poker\bin\Debug\netcoreapp2.0\Poker.Application.pdb
+C:\Users\Alessandro Silveira\Source\Repos\Poker\src\Poker\Poker\bin\Debug\netcoreapp2.0\Poker.Domain.pdb
+C:\Users\Alessandro Silveira\Source\Repos\Poker\src\Poker\Poker\bin\Debug\netcoreapp2.0\Poker.Domain.Core.pdb
+C:\Users\Alessandro Silveira\Source\Repos\Poker\src\Poker\Poker\obj\Debug\netcoreapp2.0\Poker.csprojResolveAssemblyReference.cache
+C:\Users\Alessandro Silveira\Source\Repos\Poker\src\Poker\Poker\obj\Debug\netcoreapp2.0\Poker.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro Silveira\Source\Repos\Poker\src\Poker\Poker\obj\Debug\netcoreapp2.0\Poker.AssemblyInfoInputs.cache
+C:\Users\Alessandro Silveira\Source\Repos\Poker\src\Poker\Poker\obj\Debug\netcoreapp2.0\Poker.AssemblyInfo.cs
+C:\Users\Alessandro Silveira\Source\Repos\Poker\src\Poker\Poker\obj\Debug\netcoreapp2.0\Poker.dll
+C:\Users\Alessandro Silveira\Source\Repos\Poker\src\Poker\Poker\obj\Debug\netcoreapp2.0\Poker.pdb

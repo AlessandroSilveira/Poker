@@ -39,6 +39,8 @@ namespace Poker.Domain.Core.Carta
                 return true;
             return _simbolos >= Simbolos.Simbolos.Valete;
         }
+
+	   
     }
 }
 

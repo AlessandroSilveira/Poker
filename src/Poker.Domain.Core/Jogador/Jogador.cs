@@ -19,11 +19,11 @@ namespace Poker.Domain.Core.Jogador
         {
             var listaJogadores = new List<Jogador> { };
 
-            for (int i = 0; i < numeroJogadores; i++)
+            for (var i = 0; i < numeroJogadores; i++)
             {
-                Jogador jogador = new Jogador();
-                Console.WriteLine("Digiteo nome do " + i + "° jogador:" );
-                string nome = Console.ReadLine();
+                var jogador = new Jogador();
+                Console.WriteLine(string.Format("Digiteo nome do {0}° jogador:",i) );
+                var nome = Console.ReadLine();
                 jogador.Nome = nome;
                 listaJogadores.Add(jogador);
             }

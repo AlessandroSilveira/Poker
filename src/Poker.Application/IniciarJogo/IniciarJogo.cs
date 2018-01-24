@@ -1,40 +1,71 @@
 ﻿using System;
 using System.Linq;
+using Poker.Domain.Core.Carta;
 using Poker.Domain.Core.Deck;
 using Poker.Domain.Core.Jogador;
 using Poker.Domain.Core.LogicaPoker;
 using Poker.Domain.Core.Mao;
-using Poker.Domain.Jogador;
 using Poker.Domain.MaosDePoker;
 
 namespace Poker.Application.IniciarJogo
 {
-    public class IniciarJogo 
+	public class IniciarJogo 
     {
         public void IniciaJogo()
         {
             var deck = new Deck();
             var mao = new Mao(deck);
-            var _jogador = new Jogador();
-            var _logicaPoker = new LogicaPoker();
+            var jogador = new Jogador();
+            var logicaPoker = new LogicaPoker();
+	        var flop = new Mao(deck);
+			var turn = new Mao(deck);
+			var river = new Mao(deck);
+	        
+			string[] maoCompleta = new string[7];
 
             var numeroJogadores = ObterNumeroJogadores();
 
 
-            var listaJogadores = _jogador.ObterListaDeJogadores(numeroJogadores);
+            var listaJogadores = jogador.ObterListaDeJogadores(numeroJogadores);
 
-            foreach (var itens in listaJogadores)
+			deck.Embaralhar();
+	        mao.PuxarCartas(2);
+	        mao.Sort();
+			//var novamao = 
+
+	       
+		        for (int i = 0; 1 <= maoCompleta.Length; i++)
+		        {
+			        maoCompleta[i] = mao[i];
+		        }
+	       
+
+			foreach (var itens in listaJogadores)
             {
-                deck.Embaralhar();
-                mao.PuxarCartas();
-                mao.Sort();
-                itens.Mao = mao;
-                itens.Score = (int)_logicaPoker.Score(mao);
-                itens.MaoDePoker = _logicaPoker.Score(mao);
-                Console.WriteLine(String.Format("Jogador: {0}, Mão: {1}, Mão De Poker: {2}",itens.Nome,itens.Mao, Enum.GetName(typeof(MaosDePoker), itens.MaoDePoker)));
-            }
+                
+	          
+	            //itens.Mao = mao;
+	            //itens.Score = (int)_logicaPoker.Score(mao);
+	            //itens.MaoDePoker = _logicaPoker.Score(mao);
 
-            var vencedor = listaJogadores.OrderByDescending(a => a.Score).FirstOrDefault();
+	            //Console.WriteLine(String.Format("Jogador: {0}, Mão: {1}, Mão De Poker: {2}",itens.Nome,itens.Mao, Enum.GetName(typeof(MaosDePoker), itens.MaoDePoker)));
+            }
+			
+			flop.PuxarCartas(3);
+			flop.Sort();
+	        var cartasFlop = flop;
+
+			turn.PuxarCartas(1);
+			turn.Sort();
+	        var cartaTurn = turn;
+
+			river.PuxarCartas(1);
+			river.Sort();
+	        var cartaRiver = river;
+			
+
+
+			var vencedor = listaJogadores.OrderByDescending(a => a.Score).FirstOrDefault();
             if (!vencedor.Score.Equals((int)MaosDePoker.None))
             {
                 Console.WriteLine(String.Format("Vencedor: {0} " , vencedor.Nome));

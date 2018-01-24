@@ -5,40 +5,41 @@ namespace Poker.Domain.Core.Mao
 {
 	public class Mao
 	{
-		private  Deck.Deck deck;
-		private  Carta.Carta[] mao;
+		private readonly Deck.Deck _deck;
+		private Carta.Carta[] _mao;
+
 
 		public Mao(Deck.Deck deck)
 		{
-			this.deck = deck;
-			this.mao = new Carta.Carta[2];
+			_deck = deck;
+			//_mao = new Carta.Carta[2];
 		}
 
-		public void PuxarCartas()
+		public void PuxarCartas(int qtdCartas)
 		{
-			for (var i = 0; i < 1; ++i)
-				mao[i] = deck.PuxarCartas();
-        }
+			_mao = new Carta.Carta[qtdCartas];
+
+			for (var i = 0; i < qtdCartas; ++i)
+				_mao[i] = _deck.PuxarCartas();
+		}
 
 		public override string ToString()
 		{
 			var sb = new StringBuilder();
-			foreach (var carta in mao)
+			foreach (var carta in _mao)
 			{
 				sb.Append(carta);
 				sb.Append(", ");
 			}
+
 			return sb.ToString();
 		}
 
-	    public Carta.Carta this[int index]
-	    {
-	        get { return mao[index]; }
-	    }
+		public Carta.Carta this[int index] => _mao[index];
 
 		public void Sort()
 		{
-			Array.Sort(mao);
+			Array.Sort(_mao);
 		}
-    }
+	}
 }

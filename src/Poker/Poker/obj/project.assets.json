@@ -983,7 +983,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alesi\\.nuget\\packages\\": {},
+    "C:\\Users\\Alessandro Silveira\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -992,17 +992,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\alesi\\source\\repos\\Poker\\src\\Poker\\Poker\\Poker.csproj",
+      "projectUniqueName": "C:\\Users\\Alessandro Silveira\\Source\\Repos\\Poker\\src\\Poker\\Poker\\Poker.csproj",
       "projectName": "Poker",
-      "projectPath": "C:\\Users\\alesi\\source\\repos\\Poker\\src\\Poker\\Poker\\Poker.csproj",
-      "packagesPath": "C:\\Users\\alesi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alesi\\source\\repos\\Poker\\src\\Poker\\Poker\\obj\\",
+      "projectPath": "C:\\Users\\Alessandro Silveira\\Source\\Repos\\Poker\\src\\Poker\\Poker\\Poker.csproj",
+      "packagesPath": "C:\\Users\\Alessandro Silveira\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alessandro Silveira\\Source\\Repos\\Poker\\src\\Poker\\Poker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\alesi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alessandro Silveira\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1010,13 +1010,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Users\\Alessandro Silveira\\.dotnet\\NuGetFallbackFolder": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.org/api/v2/": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\alesi\\source\\repos\\Poker\\src\\Poker.Application\\Poker.Application.csproj": {
-              "projectPath": "C:\\Users\\alesi\\source\\repos\\Poker\\src\\Poker.Application\\Poker.Application.csproj"
+            "C:\\Users\\Alessandro Silveira\\Source\\Repos\\Poker\\src\\Poker.Application\\Poker.Application.csproj": {
+              "projectPath": "C:\\Users\\Alessandro Silveira\\Source\\Repos\\Poker\\src\\Poker.Application\\Poker.Application.csproj"
             }
           }
         }
