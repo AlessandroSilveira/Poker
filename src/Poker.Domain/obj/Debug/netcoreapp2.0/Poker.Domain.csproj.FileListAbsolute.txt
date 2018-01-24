@@ -1,0 +1,9 @@
+C:\Users\alesi\source\repos\Poker\src\Poker.Domain\bin\Debug\netcoreapp2.0\Poker.Domain.deps.json
+C:\Users\alesi\source\repos\Poker\src\Poker.Domain\bin\Debug\netcoreapp2.0\Poker.Domain.dll
+C:\Users\alesi\source\repos\Poker\src\Poker.Domain\bin\Debug\netcoreapp2.0\Poker.Domain.pdb
+C:\Users\alesi\source\repos\Poker\src\Poker.Domain\obj\Debug\netcoreapp2.0\Poker.Domain.csprojResolveAssemblyReference.cache
+C:\Users\alesi\source\repos\Poker\src\Poker.Domain\obj\Debug\netcoreapp2.0\Poker.Domain.csproj.CoreCompileInputs.cache
+C:\Users\alesi\source\repos\Poker\src\Poker.Domain\obj\Debug\netcoreapp2.0\Poker.Domain.AssemblyInfoInputs.cache
+C:\Users\alesi\source\repos\Poker\src\Poker.Domain\obj\Debug\netcoreapp2.0\Poker.Domain.AssemblyInfo.cs
+C:\Users\alesi\source\repos\Poker\src\Poker.Domain\obj\Debug\netcoreapp2.0\Poker.Domain.dll
+C:\Users\alesi\source\repos\Poker\src\Poker.Domain\obj\Debug\netcoreapp2.0\Poker.Domain.pdb
